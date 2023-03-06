@@ -1,9 +1,52 @@
+/* black background */
+body{
+	background-color: black;
+}
+
 .panel{
     background-color: grey;
 	width: 1000px;
-	height:700px;
+	height:auto;
   	border: 15px;
   	padding: 50px;
     margin-top: 50px;
-  	margin-left:10%;
+  	margin-left: auto;
+	margin-right: auto;
+}
+
+/* make class title be over the image */
+.title{
+	position: absolute;
+	z-index: 1;
+	text-align: center;
+	width: 1000px;
+	color: rgb(196, 22, 22);
+	font-size: 50px;
+	font-family: 'Times New Roman', Times, serif;
+	top: 0;
+}
+
+.ham{
+	/* use flex to center the image in the screen */
+	position: relative;
+	z-index: 0;
+	width: 1000px;
+	border: 10px solid rgb(196, 22, 22);
+	padding: 50px;
+}
+
+.panel1{
+	/* center on screen  */
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 15px solid rgb(196, 22, 22);
+	/* center on screen */
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+
+	
+
 }
