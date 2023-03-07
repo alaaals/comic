@@ -21,9 +21,42 @@ body{
 	text-align: center;
 	width: 1000px;
 	color: rgb(196, 22, 22);
-	font-size: 50px;
+	font-size: 65px;
 	font-family: 'Times New Roman', Times, serif;
 	top: 0;
+	transform: translate(-50%, -50%);
+	top: 13%;
+	left: 50%;
+	letter-spacing: 20px;
+}
+
+.title2{
+	position: absolute;
+	z-index: 2;
+	text-align: right;
+	width: 1000px;
+	color: hsla(0, 0%, 100%, 0.9);
+	font-size: 30px;
+	font-family: 'Times New Roman', Times, sans-serif;
+	top: 0;
+	transform: translate(-50%, -50%);
+	top: 30%;
+	left: 35%;
+
+}
+
+.title3{
+	position: absolute;
+	z-index: 3;
+	text-align: right;
+	width: 1000px;
+	color: hsla(0, 0%, 100%, 0.9);
+	font-size: 25px;
+	font-family: 'Times New Roman', Times, serif;
+	top: 0;
+	transform: translate(-50%, -50%);
+	top: 42%;
+	left: 35%;
 }
 
 .ham{
