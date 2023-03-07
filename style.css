@@ -74,9 +74,9 @@ body{
 	justify-content: center;
 	align-items: center;
 	border: 15px solid rgb(196, 22, 22);
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	top: 10%;
+	left: 20%;
+	/* transform: translate(-50%, -50%); */
   }
   
   .panel2 {
